@@ -1,10 +1,19 @@
-console.log("Hello World!\n==========\n");
-console.log(
-  "Follow the steps in the README.md file to complete the exercises:\n==========\n"
-);
 
 // Exercise 1
+const firstName = "Baruc";
+let lastName = "Gomez";
+var age = 43;
+
 
 // Exercise 2
+let fullName=firstName + " " + lastName;
+console.log(fullName);
+
+//Bonus
+fullName=`${firstName} ${lastName}`;
 
 // Exercise 3
+let city = "Norman";
+let passTime = "Listening to music";
+let myStory = `\Hi! My name is ${fullName}. I live in ${city}. I enjoy ${passTime} and coding!`;
+console.log(myStory);
